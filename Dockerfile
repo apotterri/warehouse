@@ -135,6 +135,8 @@ RUN pip --no-cache-dir --disable-pip-version-check install --upgrade pip setupto
 # that has changed is the Warehouse code itself.
 COPY requirements /tmp/requirements
 
+COPY appmap.yml /.
+
 # Install our development dependencies if we're building a development install
 # otherwise this will do nothing.
 RUN set -x \

@@ -1,0 +1,4 @@
+name: warehouse
+appmap_dir: tmp/appmap
+packages:
+- path: warehouse

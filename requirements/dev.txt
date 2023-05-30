@@ -1,3 +1,4 @@
+appmap>=1.16.0
 asyncudp>=0.7
 hupper>=1.9
 pip-tools>=1.0
